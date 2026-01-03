@@ -10,7 +10,7 @@
  wrong input the height, its call the meters (float number) => but i input centimeters (int number)
  initial i declare a variable with true false value, and use if else condition (the task not recommend use condition for now)
 # how i solved:
- i change the declare a variable by `let markHigherBMI = markBMI > johnBMI` => the variables will true or false
+ i change the declare a variable by `const markHigherBMI = markBMI > johnBMI` => the variables will true or false
 # time spent: 45 minute
 # learn more booleans
  
