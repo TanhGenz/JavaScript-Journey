@@ -13,7 +13,7 @@ let b = 20;
 // The error is ReferenceError: Cannot access 'a' before initialization 
 // => meaning the computer didn't have time to understand what 'a' is before outputting it. 
 // It differs from var in that it's more sequential; variables are declared first and then output, 
-// and it doesn't automatically add empty variables, whereas var automatically adds empty variables.
+// and it doesn't automatically add empty variables, where as var automatically adds empty variables.
 
 
 // exercise 03
