@@ -1,30 +1,23 @@
-// Dolphins teams after 3 rounds 97, 112 and 101
-const round1Dolphins = 15;
-const round2Dolphins = 55;
-const round3Dolphins = 11;
+// Dolphins and Koalas 97, 112 and 101. Koalas score 109, 95 and 123
 
-// the average score of dolphins team
-const averageDolphinsScore = (round1Dolphins + round2Dolphins + round3Dolphins) / 3;
+const round1Dolphins = 97;
+const round2Dolphins = 112;
+const round3Dolphins = 101;
 
-// Koalas teams after 3 rounds
-const round1Koalas = 10;
-const round2Koalas = 15;
-const round3Koalas = 20;
+const averageDolphins = (round1Dolphins + round2Dolphins + round3Dolphins) / 3;
 
-// the average score of koalas team
-const averageKoalasScore = (round1Koalas + round2Koalas + round3Koalas) / 3;
+const round1Koalas = 109;
+const round2Koalas = 95;
+const round3Koalas = 123;
 
+const averageKoalas = (round1Koalas + round2Koalas + round3Koalas) / 3;
 
-if (averageDolphinsScore > averageKoalasScore && averageDolphinsScore >= 100) {
-    console.log(`Dolphins win! with the score after 3 rounds ${averageDolphinsScore}`);
-} else if (averageKoalasScore > averageDolphinsScore && averageKoalasScore >= 100) {
-    console.log(`Koalas win! with the score after 3 rounds ${averageKoalasScore}`);
-} else if (
-    averageDolphinsScore === averageKoalasScore &&
-    averageDolphinsScore >= 100 &&
-    averageKoalasScore >= 100
-) {
-    console.log(`Rematch becasue both team draws! ${averageDolphinsScore} \n ${averageKoalasScore}`);
-} else {
-    console.log("No team wins the trophy and ends this battle");
+if(averageDolphins > averageKoalas && averageDolphins >= 100){
+    console.log("Dolphin wins", averageDolphins);
+} else if (averageDolphins < averageKoalas && averageKoalas >= 100) {
+    console.log("Koalas wins", averageKoalas);
+} else if (averageDolphins === averageKoalas && averageDolphins >= 100 && averageKoalas >= 100){
+    console.log("draw");
+}else{
+    console.log("no teams win today");
 }

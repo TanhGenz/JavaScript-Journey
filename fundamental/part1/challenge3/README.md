@@ -1,6 +1,6 @@
 
 # Dev Log – 05/01/2026
-# Topic: JavaScript – BMI Challenge
+# Topic: JavaScript – dolsphin and koalas team challenge
 # What i did: 
 declare 3 variable for 3 rounds both dolphins and koalas
 calculate the average after 3 rounds by the logics `( round1 + round2 + round 3) / 3`
@@ -24,9 +24,10 @@ then using logical operator  for the second condition is each team have more tha
 Then comparison and output the team has higher score than other teams and the conditions to wins must have at least 100 points or not team winds to day
 # what i learned: 
 i learns about if-else condition, the logical and the comparision operators
-# problem:
+# problem: 
+No major issues. The logic was clear from the beginning.
 # how i solved:
-
+I directly applied if-else conditions combined with logical operators to match the requirements.
 # time spent: 30 minute
 # learn more: i need to practice more about the logical conditions, the ways i split detail conditions
 
