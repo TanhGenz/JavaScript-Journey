@@ -1,4 +1,4 @@
-# Dev Log – 07/01/2026
+# Dev Log – 08/01/2026
 # Topic: JavaScript – Tips challenge
 # What i did:
 calculate the tips with conditions if the bill have more than or equals 300$ and less more than or equals 50$
