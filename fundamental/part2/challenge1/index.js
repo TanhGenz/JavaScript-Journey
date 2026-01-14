@@ -1,4 +1,4 @@
-
+'use strict';
 let calcAverages = (roundA, roundB, roundC) => {
     const average = (roundA + roundB + roundC) / 3;
     return average;
