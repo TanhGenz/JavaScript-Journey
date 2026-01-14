@@ -30,12 +30,14 @@ i solved by research more and more => what exactly the `[]` want and can bring t
 # time spent: 
 3h
 # learn more: 
-i should learn more further about the maps => because it still repeat again in the part my own bonus 
-
-
-
-
-
+i should learn more further about the maps => because it still repeat again in the part my own bonus
+in this part the teacher not said too much deeply about
+`map`
+`forEach()`
+`find() and filter()`
+`some() and every()`
+`push()/pop() and shift()/unshift()`
+=> so i cant deep more further with this
 
 
 
